@@ -37,7 +37,7 @@ class Grid
 	      			input_x = gets.chomp
 	      		end
 	    	else 
-	    		puts "that's not a space, nerd!"
+	    		puts "that's not a space"
 	    		valid_x = false
 	    		input_x = gets.chomp
 	    	end
@@ -75,7 +75,7 @@ class Grid
 	      			input_o = gets.chomp
 	      		end
 	      	else
-	      		puts "that's not a space, nerd"
+	      		puts "that's not a space"
 	      		valid_o = false
 	      		input_o = gets.chomp
 	      	end 	
